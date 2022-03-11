@@ -4,12 +4,12 @@ A small Interpreter Language based on brainf*ck
 Contains a 3000 x 4 bytes of a array of integers in which you can store values and print them
 BrainHurt is similar to brainf*ck in syntax and commands
 
-#Files
+# Files
 main.c - The main compiler
 compile.h - Compiles the text
 file.h - For file i/o
 
-#Commands
+# Commands
 . - Print value of current pointer
 > - increase the pointer value by 1
 < - decrease the pointer value by 1
@@ -22,7 +22,7 @@ throws error if unexepected character is present or if Unxepected value to incre
 default value of main array is 3000 you can increase it....
 It may not work properly for comments and newlines
 
-#Compiling Guide
+# Compiling Guide
 For compilation you must have gcc installed
 Use this command for making the compiler - 'gcc -o main main.c'
 Then you will have main.exe in your folder
