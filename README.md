@@ -1,4 +1,4 @@
-#BrainHurt programming language
+# BrainHurt programming language
 
 A small Interpreter Language based on brainf*ck
 Contains a 3000 x 4 bytes of a array of integers in which you can store values and print them
