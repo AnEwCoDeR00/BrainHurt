@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "include/file.h"
-#include "include/compile.h"
+#include "file.h"
+#include "compile.h"
 /*
 C-- is a language designed to make your brain damage
 see the compile.h for commands 
