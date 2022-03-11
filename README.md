@@ -10,14 +10,14 @@ compile.h - Compiles the text
 file.h - For file i/o
 
 # Commands
-. - Print value of current pointer
-> - increase the pointer value by 1
-< - decrease the pointer value by 1
-+ - increase value of current position by next value 
-- - increase value of current position by next value
-* - Print value of current pointer in ascii value
-_ - Input a int and store the value in the current position
-" - For single line comment ends if detects another quote
+'.' - Print value of current pointer
+'>' - increase the pointer value by 1
+'<' - decrease the pointer value by 1
+'+' - increase value of current position by next value 
+'-' - increase value of current position by next value
+'*' - Print value of current pointer in ascii value
+'_' - Input a int and store the value in the current position
+'"' - For single line comment ends if detects another quote
 throws error if unexepected character is present or if Unxepected value to increase or decrease is given or too much incrementation or decrementation is done
 default value of main array is 3000 you can increase it....
 It may not work properly for comments and newlines
